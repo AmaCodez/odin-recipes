@@ -1,0 +1,26 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+.intro,
+.subsection {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
+    background-color: beige;
+}
+
+#ingredients {
+    font-family: 'Times New Roman', serif;
+    color: rgb(71, 14, 14);
+}
+
+.main .child {
+    font-size: 20px;
+    color: red;
+}
+img {
+    height: auto;
+    width: 500px;
+}
