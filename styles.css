@@ -3,20 +3,39 @@ h1 {
     font-size: 40px;
     color: black;
     text-align: center;
-    background-color: burlywood;
-    padding: 30px;
-    margin-top: 0;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.title {
+    text-align: center;
+    margin-top: -10px;
+    padding: 0px 115px;
+    max-width: 200px;
+    margin-bottom: 10px;
+
 
 }
 .intro,
 .subsection {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:sans-serif, Arial;
+
 }
+
+div .intro {
+    margin: 30px auto;
+    max-width: 300px;
+
+
+}
+
 .container {
-    background-color: #faf9f6;
+    background-color: #e8dec1;
     max-width: 500px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 10px 20px;
+
 }
 body {
     background-color: beige;
