@@ -44,7 +44,7 @@ div .intro {
     background-color: #e8dec1;
     max-width: 500px;
     margin: 20px auto;
-    padding: 10px 200px;
+    padding: 10px 300px;
 }
 
 span {
@@ -59,37 +59,36 @@ span {
 
 .main .child {
     font-size: 20px;
-    color: red;
+    color: brown;
 }
 
 img {
     height: auto;
     width: 500px;
+    border: 2px solid rgb(145, 62, 62);
+    margin-left: -200px;
 }
 
 .subsection.begin {
-    max-width: 300px;
-    margin: 20px auto;
+    max-width: 400px;
 }
 
 .subsection.description {
     max-width: 400px;
-    margin: 20px auto;
+}
+ol {
+    margin-bottom: 50px;
 }
 
-h2,
-h3 {
-    max-width: 400px;
-    margin: 20px auto;
+.related-posts {
+    margin-top: 100px;
+    background-color: burlywood;
+    padding: 8px 30px;
+    border: 2px solid blue;
+    margin-left: -200px;
+  
 }
-
-#ingredients {
-    max-width: 500px;
-    margin: 20px auto;
-}
-
-ol,
+.posts,
 .main {
-    max-width: 500px;
     margin: 20px auto;
 }
