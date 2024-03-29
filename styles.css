@@ -44,7 +44,12 @@ div .intro {
     background-color: #e8dec1;
     max-width: 500px;
     margin: 20px auto;
-    padding: 10px 20px;
+    padding: 10px 200px;
+}
+
+span {
+    padding: 0px;
+    color: brown;
 }
 
 #ingredients {
@@ -60,4 +65,31 @@ div .intro {
 img {
     height: auto;
     width: 500px;
+}
+
+.subsection.begin {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.subsection.description {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+h2,
+h3 {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#ingredients {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+ol,
+.main {
+    max-width: 500px;
+    margin: 20px auto;
 }
