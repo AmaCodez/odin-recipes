@@ -69,26 +69,30 @@ img {
     margin-left: -200px;
 }
 
-.subsection.begin {
+.subsection.begin,
+.subsection.description  {
     max-width: 400px;
 }
 
-.subsection.description {
-    max-width: 400px;
-}
 ol {
     margin-bottom: 50px;
 }
 
 .related-posts {
-    margin-top: 100px;
+    margin: 50px -300px -10px;
     background-color: burlywood;
-    padding: 8px 30px;
-    border: 2px solid blue;
-    margin-left: -200px;
+    padding: 20px 20px;
   
 }
-.posts,
-.main {
+.posts {
     margin: 20px auto;
+    max-width: 300px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.main{
+    margin: 20px auto;
+    max-width: 200px;
 }
